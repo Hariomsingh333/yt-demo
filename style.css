@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  position: relative;
+  color: white;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-transform: capitalize;
+}
+#header{
+  background-image: linear-gradient(white, rgb(240, 69, 69));
+  color: white;
+  letter-spacing: 0.1rem;
+}
+#color{
+  background-image: linear-gradient(rgb(241,72,72), rgb(247, 221, 221));
+}
+.nav-item{
+  padding: 5%;
+}
+.row{
+  padding: 5%;
+}
+
+
+#header-img{
+  display: flex;
+  flex-direction: column;
+  
+  font-size: 10rem;
+}
+
+.card-group{
+  padding: 5%;
+  color: rgb(88, 78, 78);
+}
+
+#nikhil{
+ display: flex;
+ align-items: center;
+ text-align: center;
+
+ width: 100%;
+}
+#Dhruv_Rathee{
+  width: 100%;
+  height: 100%; 
+}
+#shroud{
+  width: 100%;
+  height: 100%;
+}
+#middle-text{
+padding: 2rem;
+}
+#text{
+  padding: 2rem;
+}
+footer{
+  width: 100%;
+height: 5rem;
+  background-color: rgb(247, 222, 222);
+}
+.f{
+ 
+ display: inline-block;
+ padding: 10px;
+ font-size: 2rem;
+}
+.f a{
+  text-decoration: none;
+}
+.f:hover{
+  font-size: 1.5rem;
+  box-shadow: 12px 12px 12px 0;
+}
+/* media  */
+@media screen and (max-width: 580px){
+
+  #header{
+    color: black;
+  }
+
+  #header-btn{
+    margin-top: 20px;
+  }
+.header-img{
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  align-items: center;
+}
+}
